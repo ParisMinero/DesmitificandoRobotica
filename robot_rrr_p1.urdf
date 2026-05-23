@@ -1,0 +1,115 @@
+<robot name="robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!--Descripción de los eslabones-->
+  <link name="base_link1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.05"/>
+      </geometry>
+      <origin xyz="0 0 -0.025"/>
+      <material name="black">
+        <color rgba="0 0 0 0.5"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="base_link2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.3"/>
+      </geometry>
+      <origin xyz="0 0 0.15"/>
+      <material name="cyan">
+        <color rgba="0 0 0 0.5"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="shoulder_link">
+    <visual>
+      <geometry>
+        <box size="0.3 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0.1 0 0"/>
+      <material name="cyan">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <link name="arm_link1">
+    <visual>
+      <geometry>
+        <box size="0.3 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0.15 0 0"/>
+      <material name="magenta">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="arm_link2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.025" length="0.1"/>
+      </geometry>
+      <origin xyz="0.275 0 -0.075"/>
+      <material name="magenta">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+
+  <link name="forearm_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="0.1"/>
+        <box size="0.3 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0"/>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!--Descripción de las juntas-->
+
+  <joint name="base_fixed_joint" type="fixed"> <!--tipo de junta: revolute, prismatic, fixed-->
+    <parent link="base_link1"/>
+    <child link="base_link2"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/> <!--roll, pitch, yaw-->
+  </joint>
+
+  <joint name="shoulder_joint" type="revolute"> <!--tipo de junta: revolute, prismatic, fixed-->
+    <parent link="base_link2"/>
+    <child link="shoulder_link"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper ="3.14" effort="10.0" velocity="10.0"/>
+    <origin rpy="0 0 0" xyz="0 0 0.325"/> <!--roll, pitch, yaw-->
+  </joint>
+
+  <joint name="arm_joint" type="revolute"> <!--tipo de junta: revolute, prismatic, fixed-->
+    <parent link="shoulder_link"/>
+    <child link="arm_link1"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper ="3.14" effort="10.0" velocity="10.0"/>
+    <origin xyz="0.225 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="arm_fixed_joint" type="fixed"> <!--tipo de junta: revolute, prismatic, fixed-->
+    <parent link="arm_link1"/>
+    <child link="arm_link2"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/> <!--roll, pitch, yaw-->
+  </joint>
+
+
+  <joint name="forearm_joint" type="prismatic"> <!--tipo de junta: revolute, prismatic, fixed-->
+    <parent link="arm_link2"/>
+    <child link="forearm_link"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.05" upper ="0.05" effort="10.0" velocity="10.0"/>
+    <origin rpy="0 0 0" xyz="0.275 0 -0.125"/>
+  </joint>
+</robot>
