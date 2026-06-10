@@ -29,7 +29,8 @@ class Robot():
     J_inv = J.inv()
 
     # Velocidades del E.F. como variables
-    x_dot, z_dot, beta_dot = symbols("x_dot, z_dot, beta_dot")
+    x_dot, z_dot, y_dot = symbols("x_dot, z_dot, y_dot")
+
     # Construir polinomio lambda
     t = symbols("t")
     a_0, a_1, a_2, a_3, a_4, a_5 = symbols("a_0, a_1, a_2, a_3, a_4, a_5")
@@ -40,11 +41,14 @@ class Robot():
     self.th1, self.th2, self.th3 = th1, th2, th3
     self.xi_0_p = xi_0_p
     self.J_inv = J_inv
-    self.x_dot, self.z_dot, self.beta_dot = symbols("x_dot, z_dot, beta_dot")
+
+    self.x_dot, self.z_dot, self.y_dot = symbols("x_dot, z_dot, y_dot")
+
     self.a_0, self.a_1, self.a_2, self.a_3, self.a_4, self.a_5 = a_0, a_1, a_2, a_3, a_4, a_5
     self.t = t
     self.lam, self.lam_dot, self.lam_dot_dot = lam, lam_dot, lam_dot_dot
     pass
+  
   def def_tray(self, t_f:float=2, frec:float=15, 
                th_i:tuple[float]=(0.1, 0.1,0.1), 
                xi_f:tuple[float]=(0.6, 0.1, 0)):
