@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+          "trajectory_publisher=robot_kinematics.robot_trajectory_publisher:main"
         ],
     },
 )

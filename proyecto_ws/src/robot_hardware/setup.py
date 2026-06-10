@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+          "robot_hardware=robot_hardware.robot_actuators:main"
         ],
     },
 )
