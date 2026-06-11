@@ -99,8 +99,8 @@ class Robot():
     # ---- Cinemática inversa
     # Velocidades de las juntas como ecuación
     th_dot_eq = self.J_inv * Matrix([self.x_dot, 
-                                     self.z_dot,
-                                     self.beta_dot])
+                                     self.y_dot,
+                                     self.z_dot])
     # Posición, velocidad y aceleración de las juntas
     th_m         = Matrix.zeros(3, self.muestras)
     th_dot_m     = Matrix.zeros(3, self.muestras)
@@ -116,9 +116,9 @@ class Robot():
         self.th1: th_m[0, i],
         self.th2: th_m[1, i],
         self.th3: th_m[2, i],
-        self.x_dot:    xi_dot_m[0, i],
-        self.z_dot:    xi_dot_m[1, i],
-        self.beta_dot: xi_dot_m[2, i]})
+        self.x_dot:  xi_dot_m[0, i],
+        self.y_dot:  xi_dot_m[1, i],
+        self.z_dot:  xi_dot_m[2, i]})
       th_dot_m[:, i] = th_dot_m[:, i].evalf()
       if i < self.muestras - 1:
         # Posiciones
@@ -140,14 +140,14 @@ class Robot():
     self.t_m = t_m
 
   def imp_tray(self):
-    fig, (x_g, z_g, be_g) = plt.subplots(nrows = 1, ncols = 3)
+    fig, (x_g, y_g, z_g) = plt.subplots(nrows = 1, ncols = 3)
     fig.suptitle("Posiciones del efector final")
     x_g.set_title("x")
+    y_g.set_title("y")
     z_g.set_title("z")
-    be_g.set_title("beta")
     x_g.plot(self.t_m.T,  self.xi_m[0, :].T, color="RED")
-    z_g.plot(self.t_m.T,  self.xi_m[1, :].T, color="green")
-    be_g.plot(self.t_m.T, self.xi_m[2, :].T, color=(0,0,1))
+    y_g.plot(self.t_m.T,  self.xi_m[1, :].T, color="green")
+    z_g.plot(self.t_m.T,  self.xi_m[2, :].T, color=(0,0,1))
     plt.show()
     pass
   def imp_junt(self):
