@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating robot_description.egg-info
+writing robot_description.egg-info/PKG-INFO
+writing dependency_links to robot_description.egg-info/dependency_links.txt
+writing requirements to robot_description.egg-info/requires.txt
+writing top-level names to robot_description.egg-info/top_level.txt
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+reading manifest file 'robot_description.egg-info/SOURCES.txt'
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/lib/python3.12/site-packages/robot-description.egg-link (link to .)
+
+Installed /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description
+running symlink_data
+creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index
+creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index/resource_index
+creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index/resource_index/packages
+symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/resource/robot_description -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index/resource_index/packages
+symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/package.xml -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description
+creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/rviz
+symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/rviz/rviz.conf.rviz -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/rviz
+creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/urdf
+symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/urdf/proyectoRobotRRR.urdf -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/urdf
+creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/meshes

@@ -1,0 +1,24 @@
+[3.154s] Invoking command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics/build --no-deps symlink_data
+[3.864s] running develop
+[4.306s] running egg_info
+[4.306s] creating robot_kinematics.egg-info
+[4.346s] writing robot_kinematics.egg-info/PKG-INFO
+[4.347s] writing dependency_links to robot_kinematics.egg-info/dependency_links.txt
+[4.348s] writing entry points to robot_kinematics.egg-info/entry_points.txt
+[4.348s] writing requirements to robot_kinematics.egg-info/requires.txt
+[4.348s] writing top-level names to robot_kinematics.egg-info/top_level.txt
+[4.348s] writing manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[4.432s] reading manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[4.433s] writing manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[4.477s] running build_ext
+[4.477s] Creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages/robot-kinematics.egg-link (link to .)
+[4.478s] Installing trajectory_publisher script to /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/lib/robot_kinematics
+[4.478s] 
+[4.479s] Installed /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics
+[4.479s] running symlink_data
+[4.480s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/share/ament_index
+[4.481s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/share/ament_index/resource_index
+[4.481s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/share/ament_index/resource_index/packages
+[4.481s] symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics/resource/robot_kinematics -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/share/ament_index/resource_index/packages
+[4.481s] symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics/package.xml -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/share/robot_kinematics
+[4.587s] Invoked command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_kinematics/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup/launch/trajectory_bringup.launch.py

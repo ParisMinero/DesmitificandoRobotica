@@ -1,0 +1,27 @@
+[3.169s] Invoking command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/build --no-deps symlink_data
+[3.883s] running develop
+[4.325s] running egg_info
+[4.325s] creating robot_description.egg-info
+[4.366s] writing robot_description.egg-info/PKG-INFO
+[4.368s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[4.368s] writing requirements to robot_description.egg-info/requires.txt
+[4.368s] writing top-level names to robot_description.egg-info/top_level.txt
+[4.368s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.452s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.453s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[4.497s] running build_ext
+[4.497s] Creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/lib/python3.12/site-packages/robot-description.egg-link (link to .)
+[4.498s] 
+[4.498s] Installed /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description
+[4.499s] running symlink_data
+[4.499s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index
+[4.499s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index/resource_index
+[4.500s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index/resource_index/packages
+[4.500s] symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/resource/robot_description -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/ament_index/resource_index/packages
+[4.500s] symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/package.xml -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description
+[4.500s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/rviz
+[4.501s] symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/rviz/rviz.conf.rviz -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/rviz
+[4.501s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/urdf
+[4.502s] symbolically linking /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/urdf/proyectoRobotRRR.urdf -> /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/urdf
+[4.502s] creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/share/robot_description/meshes
+[4.594s] Invoked command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_description/build --no-deps symlink_data
