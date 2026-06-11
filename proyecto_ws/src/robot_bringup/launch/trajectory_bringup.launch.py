@@ -11,7 +11,7 @@ def generate_launch_description():
     "robot_description"
   )
   # Rutas de urdf y rviz conf
-  urdf_path = description_path + "/urdf/robot_rrr.urdf"
+  urdf_path = description_path + "/urdf/proyectoRobotRRR.urdf"
   rviz_path = description_path + "/rviz/rviz.conf.rviz"
   # URDF como xacro
   urdf_xacro  = Command(["xacro ", urdf_path])

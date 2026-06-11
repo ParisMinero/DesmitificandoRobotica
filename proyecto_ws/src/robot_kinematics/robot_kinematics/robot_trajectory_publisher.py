@@ -70,9 +70,9 @@ class PublicadorTrayectoria(Node):
       th_i=(self.js_current.position[0],
             self.js_current.position[1],
             self.js_current.position[2]), 
-      xi_f=(msg.point.x, 
-            msg.point.z, 
-            0))
+      xi_f=(msg.point.x,    # Para que solo se mueva en el plano XY
+            msg.point.y,    # Para que solo se mueva en el plano XY
+            0.15))          # Se fija la posición de Z
     self.get_logger().info("Posición final EF: {}".format
     (self.robot.xi_m[:, self.robot.muestras - 1]))
 
