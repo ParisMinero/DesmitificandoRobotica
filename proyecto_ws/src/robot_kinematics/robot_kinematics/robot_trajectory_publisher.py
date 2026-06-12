@@ -43,6 +43,7 @@ class PublicadorTrayectoria(Node):
     self.is_moving = True
     self.get_logger().info("Posición recibida: {}".format(str(msg.linear)))
     self.robot.def_tray(
+      frec=100,               # Agragado para que haga mas iteraciones?
       th_i=(self.js_current.position[0],
             self.js_current.position[1],
             self.js_current.position[2]), 
@@ -72,7 +73,8 @@ class PublicadorTrayectoria(Node):
             self.js_current.position[2]), 
       xi_f=(msg.point.x,    # Para que solo se mueva en el plano XY
             msg.point.y,    # Para que solo se mueva en el plano XY
-            0.15))          # Se fija la posición de Z
+            msg.point.z))          # Se fija la posición de Z
+   
     self.get_logger().info("Posición final EF: {}".format
     (self.robot.xi_m[:, self.robot.muestras - 1]))
 

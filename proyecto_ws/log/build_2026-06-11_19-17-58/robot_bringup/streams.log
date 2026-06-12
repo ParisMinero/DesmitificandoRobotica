@@ -1,0 +1,15 @@
+[1.010s] Invoking command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup/build --no-deps symlink_data
+[1.237s] running develop
+[1.376s] running egg_info
+[1.389s] writing robot_bringup.egg-info/PKG-INFO
+[1.390s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[1.390s] writing requirements to robot_bringup.egg-info/requires.txt
+[1.390s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[1.417s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.418s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.432s] running build_ext
+[1.432s] Creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[1.433s] 
+[1.433s] Installed /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup
+[1.433s] running symlink_data
+[1.470s] Invoked command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_bringup/build --no-deps symlink_data

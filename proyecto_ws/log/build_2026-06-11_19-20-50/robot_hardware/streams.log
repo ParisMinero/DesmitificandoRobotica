@@ -1,0 +1,17 @@
+[1.005s] Invoking command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware/build --no-deps symlink_data
+[1.241s] running develop
+[1.382s] running egg_info
+[1.395s] writing robot_hardware.egg-info/PKG-INFO
+[1.395s] writing dependency_links to robot_hardware.egg-info/dependency_links.txt
+[1.396s] writing entry points to robot_hardware.egg-info/entry_points.txt
+[1.396s] writing requirements to robot_hardware.egg-info/requires.txt
+[1.396s] writing top-level names to robot_hardware.egg-info/top_level.txt
+[1.424s] reading manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[1.424s] writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[1.439s] running build_ext
+[1.439s] Creating /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages/robot-hardware.egg-link (link to .)
+[1.440s] Installing robot_hardware script to /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_hardware/lib/robot_hardware
+[1.440s] 
+[1.440s] Installed /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware
+[1.440s] running symlink_data
+[1.492s] Invoked command in '/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xdblackout/Dev/DesmitificandoRobotica/proyecto_ws/build/robot_hardware/build --no-deps symlink_data
